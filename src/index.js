@@ -3,7 +3,7 @@ const { GraphQLServer } = require("graphql-yoga");
 
 let links = [{
     id: "001",
-    description: "Dummy description for the link of google",
+    description: "Dummy description for the link of google.com",
     url: "www.google.com"
 }];
 
