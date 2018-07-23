@@ -1,0 +1,14 @@
+{
+  "name": "graphql-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arunava Mukherjee",
+  "license": "ISC",
+  "devDependencies": {
+    "graphql-yoga": "^1.14.12"
+  }
+}
