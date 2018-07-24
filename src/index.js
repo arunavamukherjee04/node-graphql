@@ -26,6 +26,38 @@ const resolvers = {
 
             links.push(link);
             return link;
+        },
+
+
+        getFeed: (root, args) => {
+            for(var link of links) {
+                if(link.id === args.id) {
+                    return link;
+                }
+            }
+        },
+
+
+        updateLink: (root, args) => {
+            for (var link of links) {
+                if(link.id === args.id) {
+                    link.description = args.description;
+                    link.url = args.url;
+
+                    return link;
+                }
+            }
+        },
+
+        deleteLink: (root, args) => {
+            for(link of links) {
+                if(link.id === args.id) {
+                    var indexOfLink = links.indexOf(link);
+                    links.splice(indexOfLink, 1);
+
+                    return link;
+                }
+            }
         }
     }
 }
