@@ -9,6 +9,7 @@
   "author": "Arunava Mukherjee",
   "license": "ISC",
   "devDependencies": {
-    "graphql-yoga": "^1.14.12"
+    "graphql-yoga": "^1.14.12",
+    "prisma": "^1.12.0"
   }
 }

@@ -3,11 +3,7 @@
     feed: [Link!]!
 }
 
-type Link {
-    id: String!
-    description: String!
-    url: String!
-}
+
 
 type Mutation {
     post(url: String!, description: String!): Link!
